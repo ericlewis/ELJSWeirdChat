@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		681FD9362A74201A006E49E5 /* Environment+OpenAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681FD9352A74201A006E49E5 /* Environment+OpenAI.swift */; };
+		681FD9392A742344006E49E5 /* SetupDefaultPluginsViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681FD9382A742344006E49E5 /* SetupDefaultPluginsViewModifier.swift */; };
+		681FD93B2A742699006E49E5 /* Environment+SystemMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681FD93A2A742699006E49E5 /* Environment+SystemMessage.swift */; };
+		681FD9402A7427E5006E49E5 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681FD93F2A7427E5006E49E5 /* ChatView.swift */; };
+		681FD9422A7427FF006E49E5 /* ChatDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681FD9412A7427FF006E49E5 /* ChatDebugView.swift */; };
+		681FD9442A742819006E49E5 /* PluginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681FD9432A742819006E49E5 /* PluginView.swift */; };
+		681FD9492A7437DE006E49E5 /* Environment+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681FD9482A7437DE006E49E5 /* Environment+Model.swift */; };
+		681FD94B2A7441EB006E49E5 /* Environment+AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681FD94A2A7441EB006E49E5 /* Environment+AppConfiguration.swift */; };
+		68B7A48C2A701244005391AD /* ELJSWeirdChat_app.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B7A48B2A701244005391AD /* ELJSWeirdChat_app.swift */; };
+		68B7A48E2A701244005391AD /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B7A48D2A701244005391AD /* RootView.swift */; };
+		68B7A4902A701246005391AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B7A48F2A701246005391AD /* Assets.xcassets */; };
+		68B7A4952A701246005391AD /* Plugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B7A4942A701246005391AD /* Plugin.swift */; };
+		68B7A49D2A701392005391AD /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 68B7A49C2A701392005391AD /* OpenAI */; };
+		68B7A4A82A7020B5005391AD /* PluginManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B7A4A72A7020B5005391AD /* PluginManagerView.swift */; };
+		68B7A4AA2A7020D2005391AD /* CodeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B7A4A92A7020D2005391AD /* CodeEditorView.swift */; };
+		68BA6AA92A71BED600B29683 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA6AA82A71BED600B29683 /* Message.swift */; };
+		68BA6AAC2A72C30000B29683 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 68BA6AAB2A72C30000B29683 /* MessageKit */; };
+		68BA6AAE2A72C44200B29683 /* ChatMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA6AAD2A72C44200B29683 /* ChatMessagesView.swift */; };
+		68BA6AB02A72EBE700B29683 /* Sender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA6AAF2A72EBE700B29683 /* Sender.swift */; };
+		68BA6AB32A72F00900B29683 /* CodeEditor in Frameworks */ = {isa = PBXBuildFile; productRef = 68BA6AB22A72F00900B29683 /* CodeEditor */; };
+		68BA6AB52A730C3100B29683 /* ClearChatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA6AB42A730C3100B29683 /* ClearChatButton.swift */; };
+		68BA6AB72A731A2300B29683 /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA6AB62A731A2300B29683 /* DismissButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		681FD9352A74201A006E49E5 /* Environment+OpenAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Environment+OpenAI.swift"; sourceTree = "<group>"; };
+		681FD9382A742344006E49E5 /* SetupDefaultPluginsViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupDefaultPluginsViewModifier.swift; sourceTree = "<group>"; };
+		681FD93A2A742699006E49E5 /* Environment+SystemMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Environment+SystemMessage.swift"; sourceTree = "<group>"; };
+		681FD93F2A7427E5006E49E5 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		681FD9412A7427FF006E49E5 /* ChatDebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDebugView.swift; sourceTree = "<group>"; };
+		681FD9432A742819006E49E5 /* PluginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginView.swift; sourceTree = "<group>"; };
+		681FD9482A7437DE006E49E5 /* Environment+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Environment+Model.swift"; sourceTree = "<group>"; };
+		681FD94A2A7441EB006E49E5 /* Environment+AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Environment+AppConfiguration.swift"; sourceTree = "<group>"; };
+		68B7A4882A701244005391AD /* ELJSWeirdChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELJSWeirdChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B7A48B2A701244005391AD /* ELJSWeirdChat_app.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELJSWeirdChat_app.swift; sourceTree = "<group>"; };
+		68B7A48D2A701244005391AD /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		68B7A48F2A701246005391AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68B7A4942A701246005391AD /* Plugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plugin.swift; sourceTree = "<group>"; };
+		68B7A4A72A7020B5005391AD /* PluginManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginManagerView.swift; sourceTree = "<group>"; };
+		68B7A4A92A7020D2005391AD /* CodeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeEditorView.swift; sourceTree = "<group>"; };
+		68BA6AA82A71BED600B29683 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		68BA6AAD2A72C44200B29683 /* ChatMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessagesView.swift; sourceTree = "<group>"; };
+		68BA6AAF2A72EBE700B29683 /* Sender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sender.swift; sourceTree = "<group>"; };
+		68BA6AB42A730C3100B29683 /* ClearChatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearChatButton.swift; sourceTree = "<group>"; };
+		68BA6AB62A731A2300B29683 /* DismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68B7A4852A701244005391AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B7A49D2A701392005391AD /* OpenAI in Frameworks */,
+				68BA6AB32A72F00900B29683 /* CodeEditor in Frameworks */,
+				68BA6AAC2A72C30000B29683 /* MessageKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		681FD9342A742007006E49E5 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				681FD9352A74201A006E49E5 /* Environment+OpenAI.swift */,
+				681FD93A2A742699006E49E5 /* Environment+SystemMessage.swift */,
+				681FD9482A7437DE006E49E5 /* Environment+Model.swift */,
+				681FD94A2A7441EB006E49E5 /* Environment+AppConfiguration.swift */,
+			);
+			name = Environment;
+			path = ELJSWeirdChat/Environment;
+			sourceTree = "<group>";
+		};
+		681FD9372A74232A006E49E5 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				681FD9382A742344006E49E5 /* SetupDefaultPluginsViewModifier.swift */,
+			);
+			name = Modifiers;
+			path = ELJSWeirdChat/Modifiers;
+			sourceTree = "<group>";
+		};
+		681FD93C2A742761006E49E5 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				68BA6AB42A730C3100B29683 /* ClearChatButton.swift */,
+				68BA6AB62A731A2300B29683 /* DismissButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		681FD93D2A7427C5006E49E5 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				68B7A4A92A7020D2005391AD /* CodeEditorView.swift */,
+				68B7A4A72A7020B5005391AD /* PluginManagerView.swift */,
+				681FD9432A742819006E49E5 /* PluginView.swift */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		681FD93E2A7427CB006E49E5 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				68BA6AAD2A72C44200B29683 /* ChatMessagesView.swift */,
+				681FD93F2A7427E5006E49E5 /* ChatView.swift */,
+				681FD9412A7427FF006E49E5 /* ChatDebugView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		68B7A47F2A701244005391AD = {
+			isa = PBXGroup;
+			children = (
+				681FD9342A742007006E49E5 /* Environment */,
+				68B7A4AB2A702120005391AD /* Models */,
+				681FD9372A74232A006E49E5 /* Modifiers */,
+				68B7A4AD2A70217D005391AD /* Supporting */,
+				68B7A4A62A702095005391AD /* Views */,
+				68B7A4892A701244005391AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68B7A4892A701244005391AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68B7A4882A701244005391AD /* ELJSWeirdChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68B7A4A62A702095005391AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				681FD93E2A7427CB006E49E5 /* Chat */,
+				681FD93D2A7427C5006E49E5 /* Plugins */,
+				681FD93C2A742761006E49E5 /* Buttons */,
+				68B7A48D2A701244005391AD /* RootView.swift */,
+			);
+			name = Views;
+			path = ELJSWeirdChat/Views;
+			sourceTree = "<group>";
+		};
+		68B7A4AB2A702120005391AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				68B7A4942A701246005391AD /* Plugin.swift */,
+				68BA6AA82A71BED600B29683 /* Message.swift */,
+				68BA6AAF2A72EBE700B29683 /* Sender.swift */,
+			);
+			name = Models;
+			path = ELJSWeirdChat/Models;
+			sourceTree = "<group>";
+		};
+		68B7A4AD2A70217D005391AD /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				68B7A48B2A701244005391AD /* ELJSWeirdChat_app.swift */,
+				68B7A48F2A701246005391AD /* Assets.xcassets */,
+			);
+			name = Supporting;
+			path = ELJSWeirdChat/Supporting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68B7A4872A701244005391AD /* ELJSWeirdChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B7A4982A701246005391AD /* Build configuration list for PBXNativeTarget "ELJSWeirdChat" */;
+			buildPhases = (
+				68B7A4842A701244005391AD /* Sources */,
+				68B7A4852A701244005391AD /* Frameworks */,
+				68B7A4862A701244005391AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ELJSWeirdChat;
+			packageProductDependencies = (
+				68B7A49C2A701392005391AD /* OpenAI */,
+				68BA6AAB2A72C30000B29683 /* MessageKit */,
+				68BA6AB22A72F00900B29683 /* CodeEditor */,
+			);
+			productName = "Smartie Pants";
+			productReference = 68B7A4882A701244005391AD /* ELJSWeirdChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68B7A4802A701244005391AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					68B7A4872A701244005391AD = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 68B7A4832A701244005391AD /* Build configuration list for PBXProject "ELJSWeirdChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68B7A47F2A701244005391AD;
+			packageReferences = (
+				68B7A49B2A701392005391AD /* XCRemoteSwiftPackageReference "OpenAI" */,
+				68BA6AAA2A72C30000B29683 /* XCRemoteSwiftPackageReference "MessageKit" */,
+				68BA6AB12A72F00900B29683 /* XCRemoteSwiftPackageReference "CodeEditor" */,
+			);
+			productRefGroup = 68B7A4892A701244005391AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68B7A4872A701244005391AD /* ELJSWeirdChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68B7A4862A701244005391AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B7A4902A701246005391AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68B7A4842A701244005391AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B7A48E2A701244005391AD /* RootView.swift in Sources */,
+				681FD9492A7437DE006E49E5 /* Environment+Model.swift in Sources */,
+				68B7A4952A701246005391AD /* Plugin.swift in Sources */,
+				681FD94B2A7441EB006E49E5 /* Environment+AppConfiguration.swift in Sources */,
+				681FD9442A742819006E49E5 /* PluginView.swift in Sources */,
+				68BA6AAE2A72C44200B29683 /* ChatMessagesView.swift in Sources */,
+				681FD93B2A742699006E49E5 /* Environment+SystemMessage.swift in Sources */,
+				681FD9402A7427E5006E49E5 /* ChatView.swift in Sources */,
+				68B7A4A82A7020B5005391AD /* PluginManagerView.swift in Sources */,
+				68BA6AB02A72EBE700B29683 /* Sender.swift in Sources */,
+				681FD9362A74201A006E49E5 /* Environment+OpenAI.swift in Sources */,
+				681FD9392A742344006E49E5 /* SetupDefaultPluginsViewModifier.swift in Sources */,
+				68B7A48C2A701244005391AD /* ELJSWeirdChat_app.swift in Sources */,
+				68BA6AA92A71BED600B29683 /* Message.swift in Sources */,
+				68BA6AB52A730C3100B29683 /* ClearChatButton.swift in Sources */,
+				68BA6AB72A731A2300B29683 /* DismissButton.swift in Sources */,
+				68B7A4AA2A7020D2005391AD /* CodeEditorView.swift in Sources */,
+				681FD9422A7427FF006E49E5 /* ChatDebugView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		68B7A4962A701246005391AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68B7A4972A701246005391AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68B7A4992A701246005391AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9PGNEMEHU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericlewis.ELJSWeirdChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68B7A49A2A701246005391AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9PGNEMEHU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericlewis.ELJSWeirdChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68B7A4832A701244005391AD /* Build configuration list for PBXProject "ELJSWeirdChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B7A4962A701246005391AD /* Debug */,
+				68B7A4972A701246005391AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B7A4982A701246005391AD /* Build configuration list for PBXNativeTarget "ELJSWeirdChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B7A4992A701246005391AD /* Debug */,
+				68B7A49A2A701246005391AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		68B7A49B2A701392005391AD /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI#chats";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.3;
+			};
+		};
+		68BA6AAA2A72C30000B29683 /* XCRemoteSwiftPackageReference "MessageKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.1;
+			};
+		};
+		68BA6AB12A72F00900B29683 /* XCRemoteSwiftPackageReference "CodeEditor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ZeeZide/CodeEditor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		68B7A49C2A701392005391AD /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68B7A49B2A701392005391AD /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+		68BA6AAB2A72C30000B29683 /* MessageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68BA6AAA2A72C30000B29683 /* XCRemoteSwiftPackageReference "MessageKit" */;
+			productName = MessageKit;
+		};
+		68BA6AB22A72F00900B29683 /* CodeEditor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68BA6AB12A72F00900B29683 /* XCRemoteSwiftPackageReference "CodeEditor" */;
+			productName = CodeEditor;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 68B7A4802A701244005391AD /* Project object */;
+}
